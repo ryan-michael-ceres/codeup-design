@@ -1,13 +1,106 @@
-*{
-    font-family: 'Anton', sans-serif;
+* {
+
 }
 
 body{
-background-color: lightgray;
-display: grid;
-grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr 1fr 2fr 1fr;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr 1fr 2fr;
 }
+/*ICON HEADER*/
 
 .icon-header{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
 
+.section1 {
+    height: 25%;
+    width: 100%;
+}
+
+.section2 {
+    height: 40%;
+    width: 100%;
+    background: white;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    padding: 50px 0 50px 185px;
+}
+/*WEBSITE TITLE*/
+
+.web-title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 28px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/*NAV*/
+
+.main-nav {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*VISUAL*/
+
+.visual {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    font-family: 'Anton', sans-serif;
+}
+
+/*FROM PARK CITY*/
+
+.city {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    font-family: 'Anton', sans-serif;
+}
+
+/*CIRCLE*/
+
+.circle1 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle2 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    font-family: 'Anton', sans-serif;
+}
+
+/*SELECT WORK*/
+
+.work {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+
+/*LAPTOP PICTURE*/
+
+.laptop {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+
+/*FEATURED PROJECT*/
+
+.footer {
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+    font-family: 'Anton', sans-serif;
 }
