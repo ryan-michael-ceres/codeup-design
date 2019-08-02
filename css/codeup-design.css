@@ -821,11 +821,13 @@
         flex-wrap: wrap;
     }
 
+    .fa-twitter{
+        color: #1EA1F3;
+    }
+
     h6{
         margin: 3px;
     }
-
-
 
     .mobile-phone{
         display: flex;
@@ -1213,6 +1215,10 @@
     .twitter {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .fa-twitter{
+        color: #1EA1F3;
     }
 
     h6{
